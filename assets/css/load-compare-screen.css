@@ -1,0 +1,84 @@
+.diff td {padding: 0 0.667em;vertical-align: top;white-space: pre;white-space: pre-wrap;font-size: 13px;line-height: 1.333;}
+.diff span:first-child {margin-top: 0;}
+.diffDeleted span {border: 1px solid rgb(255,192,192);background: rgb(255,224,224);}
+.diff span {display: block;min-height: 1.333em;margin-top: -1px;padding: 0 3px;}
+.diff td {padding: 0 0.667em;vertical-align: top;white-space: pre;white-space: pre-wrap;font-size: 13px;line-height: 1.333;}
+.diffInserted span {border: 1px solid rgb(192,255,192);background: rgb(224,255,224);}
+div#container-fluid{padding:20px 15px 0;}
+.diff span{margin-top:0;max-width:540px;word-break:break-all}
+a.nav-link.py-1.collapsed:after{content:'\f078';font-size:12px;font-family:"Font Awesome 5 free";font-weight:900;position:absolute;right:0;top:10px;text-decoration:none;font-style:normal}
+a.nav-link.py-1:not(.collapsed):after{content:'\f077';font-size:12px;font-family:"Font Awesome 5 free";font-weight:900;position:absolute;right:0;top:10px;text-decoration:none;font-style:normal}
+ul.nav.flex-column.flex-nowrap{width:100%;overflow-y:hidden;background-color:#004067;height:550px;position:sticky;top:74px}
+ul.nav.flex-column.flex-nowrap:hover{overflow-y: scroll;}
+li.nav-item{word-break:break-word;padding:5px;margin:0; border-radius: 5px;}
+a.nav-link.py-1 { text-align: left;}
+ul{padding: 0}
+.nav-link{padding: 0;}
+a{color:#000;font-size:16px;text-align:center}
+.pl-4, .px-4 {padding-left: 0rem!important;}
+ul.nav.flex-column.flex-nowrap.overflow-hidden{width: 100%;}
+h3{font-size: 15px; text-decoration: underline;}
+h4{font-size:14px}
+table{border-collapse:collapse;}
+.row{margin-top:22px}
+a.nav-link.py-1{position: relative;font-weight:600;}
+.file{margin-left: 13px;}
+.header{padding: 20px;padding-left: 10px;}
+li.nav-item.current-file{background:#006495;}
+ul::-webkit-scrollbar{width:10px;height:10px}
+ul::-webkit-scrollbar-track{box-shadow:inset 0 0 5px grey;border-radius:10px}
+ul::-webkit-scrollbar-thumb{background:#006495;border-radius:10px}
+/* ul::-webkit-scrollbar-thumb:hover{background:#b30000} */
+.notecss{font-size: 12px}
+.marginbottomzero{margin-bottom: 0px}
+table.diff {margin-top: 30px;}
+h3{color: #006495;}
+.notecss:before {content: "\f044";font-size: 14px;color: #02a8e1;margin-right: 10px; font-weight: 900;font-family:"Font Awesome 5 free";
+}
+.change:before {content: "\f362";font-size: 14px;color: #02a8e1;margin-right: 10px; font-weight: 900;font-family:"Font Awesome 5 free";
+}
+.file_name:before {content: "\f15c";font-size: 14px;color: #02a8e1;margin-right: 10px; font-weight: 900;font-family:"Font Awesome 5 free";
+}
+.marginbottomzero:before {content: "\f0c5";font-size: 14px;color: #02a8e1;margin-right: 10px; font-weight: 900;font-family:"Font Awesome 5 free";
+}
+
+tbody{background: #f1f1f1;}
+li.nav-item.current-file a {color: white;}
+.header { position: fixed;top: 0;width:100%;background: #002f4f;z-index: 9;display: flex;justify-content: space-between;align-items: center;}
+.header img{width:150px;}
+.fixed-thead {position: fixed;top: 74px;width: 100%;z-index: 99;padding-top: 20px; max-width: 83%;background: #006495;padding: 10px;
+}
+.t_head.fixed-thead td {width: 50%;display: block;float: left;}
+
+.diff > tbody > tr > td:nth-child(1) {
+    border-right: 2px solid #000000;
+}
+
+ul[role*='group'] li.nav-item:not(.current-file):hover {
+	background: #006495;
+}
+ul[role*='group'] li.nav-item:not(.current-file) a {
+	color: #ffffff;
+	text-decoration: none;
+}
+li.nav-item.current-file:hover a {
+	text-decoration: none;
+}
+.modal-dialog .modal-header {
+	padding: 0 1rem;
+	border: unset;
+}
+.modal-dialog .modal-body {
+	padding: 0 1rem 1rem 1rem;
+	border: unset;
+}	
+.modal-btn {cursor: pointer;}
+.modal-btn i{color: #ffffff;font-size:25px;}	
+.modal-header button:focus {outline: 0px auto -webkit-focus-ring-color;}	
+.t_head:not(.fixed-thead) td{padding-top:6px;}
+.diffDeleted span, .diffInserted span {padding:1px 0}
+.t_head.fixed-thead{padding:10px 0}
+#sidebar{padding-left:0;}
+#comparescreen{background: #f8f9fa;}
+.t_head.fixed-thead > td:nth-child(1){border-right: 2px solid #ffffff;}
+.t_head.fixed-thead > td h3 {color: #ffffff;}
